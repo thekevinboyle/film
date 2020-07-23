@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 
 import { BrowserRouter, Route, Link } from 'react-router-dom';
-import Projects from './Projects.js';
+import Gallery from './Gallery.js';
 import Articles from './Articles.js';
 import About from './About.js';
 
@@ -11,24 +11,23 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-    <div className="App">
-      // Router
-      <Route exact path="/" component={Projects} />
-      <Route path="/articles" component={Articles} />
-      <Route path="/about" component={About} />
+      <div className="App">
 
-      <div className="navigation">
-        <img src={img} className="logo" alt="Logo Image" />
-        <div className="navigation-sub">
+        <Route path="/articles" component={Articles} />
+        <Route path="/about" component={About} />
 
-          // Links
-          <Link to="/" className="navigation-sub__item">Projects</Link>
-          <Link to="/articles" className="navigation-sub__item">Articles</Link>
-          <Link to="/About" className="navigation-sub__item">About</Link>
-
+        <div class="container">
+          <div class="navbar">
+            <img src={logo} className="logo" alt="Logo Image" />
+            <div class="items">
+              <div class="item">
+              {/* <Link to="/About" className="navigation-sub__item">About</Link> */} 
+              </div>
+            </div>
+          </div>
+<Gallery></Gallery>
         </div>
       </div>
-    </div>
     </BrowserRouter>
   );
 }

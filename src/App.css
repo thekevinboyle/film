@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+	padding: 40px;
+}
+
+.navbar {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 32px;
+	padding: 16px;
+}
+
+.logo {
+  width: 64px;	
+}
+
+.items {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: auto;
+}
+
+.item {
+	flex: 1;
+	align-self: flex-end;
+	margin-right: 24px;
+}
+
+.item:last-child {
+	margin-right: 0;
+}
+
+.gallery {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	height: 400px;
+}
+
+.gallery__item {
+	border-radius: 4px;
+  flex: 1 1 400px;
+  height: 400px;
+	margin: 16px;
+}
+
+.gallery__item img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
