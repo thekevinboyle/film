@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3eabe4b4.chunk.css",
+    "main.js": "/static/js/main.35a2d9aa.chunk.js",
+    "main.js.map": "/static/js/main.35a2d9aa.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.6b8a4986.chunk.js": "/static/js/2.6b8a4986.chunk.js",
+    "static/js/2.6b8a4986.chunk.js.map": "/static/js/2.6b8a4986.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.260be7fb3205cfde8dffa6689abbe128.js": "/precache-manifest.260be7fb3205cfde8dffa6689abbe128.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.3eabe4b4.chunk.css.map": "/static/css/main.3eabe4b4.chunk.css.map",
+    "static/js/2.6b8a4986.chunk.js.LICENSE.txt": "/static/js/2.6b8a4986.chunk.js.LICENSE.txt",
+    "static/media/god.jpg": "/static/media/god.340ee3bf.jpg",
+    "static/media/logo.svg": "/static/media/logo.8c32e190.svg",
+    "static/media/prayer.jpg": "/static/media/prayer.e3b9c9db.jpg",
+    "static/media/texture.jpg": "/static/media/texture.70321ed7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.6b8a4986.chunk.js",
+    "static/css/main.3eabe4b4.chunk.css",
+    "static/js/main.35a2d9aa.chunk.js"
+  ]
+}
